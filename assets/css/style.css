@@ -1,0 +1,158 @@
+body{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid img{
+    height: 110px;
+}
+
+.container img{
+    height: 50px;
+}
+
+footer{ /* fondo negro y letras blancas */
+    background-color: #000;
+    color: #fff;
+}
+
+footer a{ /* enlaces de redes sociales */
+    color: #fff;
+    text-decoration: none;
+}
+
+footer h4{ /* encabezados del footer */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer ul{ /* lista de redes sociales */
+    list-style: none;
+    padding: 0;
+}
+
+footer li{ /* elementos de la lista */
+    margin-bottom: 0.5rem;
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+
+.absoluto{ /* el relleno del index xd */
+    background-color: black;
+    height: 13vh;
+}
+
+.topimagen img{
+    height: 70px;
+    margin: 20px;
+}
+
+.waguito{ /* pa las cartas del index */
+    padding-bottom: 80px;
+}
+
+.titulos-productos{ /* el titulo de los productos */
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: black;
+    font-size: 40px;
+    text-shadow: grey 1px 1px 1px;
+}
+
+.tuki{ /* el titulo de los productos del index, el solito */
+    padding-top: 35px;
+    color: white;
+    font-size: 40px;
+    text-shadow: #030303 1px 1px 1px;
+}
+
+.lema-slider {
+    margin-top: 140px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.lema-slider > h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: #030303 1px 1px 1px;
+    margin-left: 20px;
+    display: inline;
+}
+/* video del gringo */
+.fondos {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 357px;
+    display: flex;
+}
+/* final del video del gringo */
+
+.final-uno > h1{
+    color: white;
+    font-size: 40px;
+    text-shadow: #030303 1px 1px 1px;
+
+}
+
+/* tutorial del chino gringo */
+.video-section {
+    position: relative;
+    overflow: hidden;
+}
+
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* la capa loca */
+}
+
+.video-section::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* final del tuto del chino */
+
+.productos-quip{
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+.sobre{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.sobre > h2{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.sobre > p{
+    padding: 10px;
+}
+
+.cositas{
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+
+.nosotros-logo img{
+    width: auto;
+    height: auto;
+}
